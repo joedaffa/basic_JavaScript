@@ -1,4 +1,6 @@
 <script>
+    /*
+    //lesson 37.1
     //lesson 37.1
     function kopimix(bahan1, bahan2, bahan3){
         this.bahan1 = bahan1,
@@ -8,21 +10,93 @@
 
     var kopiDaffa = new kopimix('gula','kopi','crim');
     var kopijoe = new kopimix('kental manis','kopi','gula');
-    document.write(kopidaffa.bahan3)
+   document.write(kopiDaffa.bahan3)
     document.write(kopijoe.bahan3)
 
+    //lesson38
     var courses = new Array('menjahit','menari','memasak')
-    course(2) = 'bernyanyi'
-    document.write(courses(2))
-    console.log(courses(2))
+    courses(0) = 'menjahit'
+    courses(1) = 'menari'
+    courses(2) = 'memasak'
+    document.write(courses[2])
+    document.write(courses[2])
 
-    // lesson 38
-    var course =new Array(3)
-    course(0) = 'menjahit'
-    course(1) = 'memasak'
-    course(2) = 'menari'
-
-    //lesso 39
     var courses = ('menjahit','menari','memasak')
     document.write(course.length)
+
+    //lesson 39
+
+
+
+    //lesson 40
+    var person = {}
+    person['nama'] = 'daffa'
+    person['age'] = '18'
+    document.write(person['nama'])
+    document.write(person['age'])
+
+    //lesson 41 math
+    document.write(math.Pl)
+    var number = Math.sqrt(81)
+    var random = Math.ceil(Math.random()*10)
+    document.write(random+ '<br/>')
+
+    var number = prompt("makanan",  "")
+    var answer = Math.sqrt(20)
+     alert("nilai dari akar perangkat dua" + 20 + "is" + answer)
+     
+
+    var jarijari = prompt ("beberapa meter jarijari tabung")
+    var tinggi = prompt ("beberapa meter tinggi tabung")
+    var volume = Math.ceil(Math.PI*(jari-jari,2)*tinggi)
+    
+        alert("volume tabung dengan tinggi = " +tinggi+" m(<br/> dan jarijari = " +jari-jari+" m<br/> adalah = " +volume)
+
+
+        //lesson 42
+        function myAlert() {
+            alert("Hi");
+
+        }
+        setInterval(myAlert, 3000);
+        
+
+       var nama = prompt ("masukan nama anda","")
+    function myAlert() {
+        alert("Hi");
+    }
+    setInterval(myAlert, 1500);
+    
+    var d = new  Date();
+            var hour = d.getHours()
+            var minute = d.getMinutes()
+            var second = d.getSeconds()
+            console.log(hour  ,":", minute ,":", second)
+            
+        function printTime() {
+    var d = new Date();
+    var hours = d.getHours();
+    var mins = d.getMinutes();
+    var secs = d.getSeconds();
+    document.body.innerHTML = hours+":"+mins+":"+secs;
+}
+setInterval(printTime, 1000);
+var day= prompt("Masukan Tanggal Lahir Kamu...");
+        var month = prompt("Masukan Bulan Lahir Kamu...") - 1;
+        var year = prompt("Masukan Tahun Lahir Kamu...");
+                console.log(getWeekDay(day, month, year))
+                
+                function getWeekDay(day, month, year){
+                var names = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                var date = new Date(day, month, year);
+                var day = date.getDay()
+                    
+                    return names[day]
+                
+                }
+                alert(getWeekDay(day, month, year))
+*/
+var kenaikanHarga = parseInt
+    
+
 </script>
